@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 54b0f85... chore: ignore build in git, only include `build` in npm
+export default bot => {
+  // read configurations from bot.config, users set bot.config in `config.js`
+  let config = bot.config.template;
+
+  // Add a help record for your plugin's commands
+	// When the user issues `help`, there will be a list of command names along
+	// with their short description (second argument).
+	// If the user issues `help` with a command name, like `help example`,
+	// the long description (last argument) will be shown.
+  bot.help('example', 'shows an example', 'example <name>');
+<<<<<<< HEAD
+=======
 import teamline from 'teamline';
 import moment from 'moment';
 import unirest from 'unirest';
@@ -71,4 +87,7 @@ Created: ${stats.created}
 Updated: ${stats.updated}
 Deleted: ${stats.deleted}
 Untouched: ${stats.untouched}`);
+>>>>>>> cda989e... fix(error): read config using _.get to prevent errors
+=======
+>>>>>>> 54b0f85... chore: ignore build in git, only include `build` in npm
 }

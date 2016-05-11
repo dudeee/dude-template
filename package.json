@@ -1,7 +1,7 @@
 {
-  "name": "bolt-template",
-  "version": "1.0.0",
-  "description": "Template for bolt plugins",
+  "name": "dude-template",
+  "version": "1.0.2",
+  "description": "Template for dude plugins",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     }
   },
   "keywords": [
-    "bolt"
+    "dude"
   ],
   "files": [
     "build"
